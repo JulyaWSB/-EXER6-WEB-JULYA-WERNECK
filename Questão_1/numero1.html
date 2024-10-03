@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  .container {
+    margin: auto;
+    max-width: 600px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+    border: 1px solid rgb(169, 169, 169);
+  }
+
+  button {
+    width: 620px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #5cb85c;
+    cursor: pointer;
+    border: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <h1>Bem-vindo!</h1>
+    <label for="nome">Digite seu nome:</label>
+    <input type="text" id="nome" placeholder="Seu nome">
+    <button onclick="saudar()">Clique aqui!</button>
+    <p id="mensagem"></p>
+  </div>
+
+  <script src="numero1.js"></script>
+</body>
+
+</html>
